@@ -27,6 +27,13 @@ In summary, the 5Vs in big data are Volume, Velocity, Variety, Veracity, and Val
 2.	HDFS Architecture
 
 Hadoop Distributed File System (HDFS) is a distributed file system that provides scalable and reliable storage for large datasets. HDFS is designed to run on commodity hardware, making it cost-effective for storing and processing large amounts of data.
+HDFS stands for Hadoop Distributed File System. It is a distributed file system designed to store large data sets across multiple commodity servers or nodes in a Hadoop cluster.
+
+HDFS was developed as part of the Apache Hadoop project and is a key component of the Hadoop ecosystem. It is a highly fault-tolerant and scalable system, capable of storing and processing data in the petabyte range.
+
+HDFS provides a way to store and retrieve data in a distributed environment. The data is divided into blocks and stored across multiple nodes in the cluster. Each block is replicated multiple times for fault tolerance, ensuring that the data is not lost in case of a node failure.
+
+HDFS is designed to work with MapReduce, a parallel processing framework that allows for the distributed processing of large data sets. MapReduce is used to analyze and process the data stored in HDFS, providing a way to extract insights and value from large data sets.
 
 The architecture of HDFS consists of the following components:
 
